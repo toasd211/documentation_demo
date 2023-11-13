@@ -44,3 +44,4 @@ include::examples/integration.py[]
 
 Feel free to modify and adapt these examples to suit your specific requirements. For more details on each example and additional scenarios, refer to the [full examples documentation](examples/full-examples.adoc).
 
+a
