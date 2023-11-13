@@ -45,7 +45,7 @@ For detailed information on the functions, classes, and methods provided by Trai
 
 == Examples
 
-Explore a variety of use cases and scenarios with our collection of code examples in the Examples section.
+Explore a variety of use cases and scenarios with our collection of code link:examples.html[examples] in the Examples section.
 
 == Troubleshooting
 

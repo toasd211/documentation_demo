@@ -17,7 +17,7 @@ inputPath = 'src';
 
 inputFiles = [
         [file: 'main.adoc',       formats: ['html','pdf']],
-        //[file: 'arc42-template.adoc',    formats: ['html','pdf']],
+        [file: 'examples.adoc',    formats: ['html','pdf']],
         /** inputFiles **/
 ]
 

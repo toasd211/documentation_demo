@@ -1,0 +1,46 @@
+== Examples
+
+Explore the capabilities of TrainManager with the following code snippets showcasing various use cases.
+
+=== Creating and Configuring a Train
+
+[source,python]
+----
+// examples/create_train.py
+include::examples/create_train.py[]
+----
+
+=== Scheduling a Train
+
+[source,python]
+----
+// examples/schedule_train.py
+include::examples/schedule_train.py[]
+----
+
+=== Real-time Tracking
+
+[source,python]
+----
+// examples/real_time_tracking.py
+include::examples/real_time_tracking.py[]
+----
+
+=== Event Handling
+
+[source,python]
+----
+// examples/event_handling.py
+include::examples/event_handling.py[]
+----
+
+=== Integration with Existing Systems
+
+[source,python]
+----
+// examples/integration.py
+include::examples/integration.py[]
+----
+
+Feel free to modify and adapt these examples to suit your specific requirements. For more details on each example and additional scenarios, refer to the [full examples documentation](examples/full-examples.adoc).
+
