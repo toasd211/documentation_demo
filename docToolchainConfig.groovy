@@ -18,6 +18,7 @@ inputPath = 'src';
 inputFiles = [
         [file: 'main.adoc',       formats: ['html','pdf']],
         [file: 'examples.adoc',    formats: ['html','pdf']],
+        [file: 'troubleshooting.adoc',    formats: ['html','pdf']]
         /** inputFiles **/
 ]
 

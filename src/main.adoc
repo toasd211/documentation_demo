@@ -49,7 +49,7 @@ Explore a variety of use cases and scenarios with our collection of code link:ex
 
 == Troubleshooting
 
-Encountering issues or have questions? Check out the Troubleshooting guide for solutions to common problems.
+Encountering issues or have questions? Check out the link:troubleshooting.html[Troubleshooting] guide for solutions to common problems.
 
 == Getting Help
 
