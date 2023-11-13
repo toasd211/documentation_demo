@@ -1,4 +1,5 @@
 name: generate-docs
+run-name: generate-docs
 on:
     push:
         branches:
@@ -11,5 +12,6 @@ jobs:
         
     steps:
         - uses: actions/checkout@v4
-        - run: ls -l
+        - run: ./dtcw install doctoolchain
+        - run: ./dtcw generateHTML
         - uses: stefanzweifel/git-auto-commit-action@v5
