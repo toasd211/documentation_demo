@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<title>Examples</title>
+<title>Troubleshooting</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -443,72 +443,91 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_examples">Examples</a>
+<li><a href="#_troubleshooting">Troubleshooting</a>
 <ul class="sectlevel2">
-<li><a href="#_creating_and_configuring_a_train">Creating and Configuring a Train</a></li>
-<li><a href="#_scheduling_a_train">Scheduling a Train</a></li>
-<li><a href="#_real_time_tracking">Real-time Tracking</a></li>
-<li><a href="#_event_handling">Event Handling</a></li>
-<li><a href="#_integration_with_existing_systems">Integration with Existing Systems</a></li>
+<li><a href="#_problem_unable_to_install_trainmanager">Problem: Unable to Install TrainManager</a></li>
+<li><a href="#_problem_unexpected_behavior_in_train_scheduling">Problem: Unexpected Behavior in Train Scheduling</a></li>
+<li><a href="#_problem_real_time_tracking_not_updating">Problem: Real-time Tracking Not Updating</a></li>
 </ul>
 </li>
+<li><a href="#back-to-main">Back to Main Page</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_examples"><a class="anchor" href="#_examples"></a>Examples</h2>
+<h2 id="_troubleshooting"><a class="anchor" href="#_troubleshooting"></a>Troubleshooting</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Explore the capabilities of TrainManager with the following code snippets showcasing various use cases.</p>
+<p>If you encounter issues while working with TrainManager, refer to the following troubleshooting guide for solutions to common problems.</p>
 </div>
 <div class="sect2">
-<h3 id="_creating_and_configuring_a_train"><a class="anchor" href="#_creating_and_configuring_a_train"></a>Creating and Configuring a Train</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">// examples/create_train.py
-Unresolved directive in examples.adoc - include::examples/create_train.py[]</code></pre>
+<h3 id="_problem_unable_to_install_trainmanager"><a class="anchor" href="#_problem_unable_to_install_trainmanager"></a>Problem: Unable to Install TrainManager</h3>
+<div class="paragraph">
+<p>If you are having trouble installing TrainManager, follow these steps:</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_scheduling_a_train"><a class="anchor" href="#_scheduling_a_train"></a>Scheduling a Train</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">// examples/schedule_train.py
-Unresolved directive in examples.adoc - include::examples/schedule_train.py[]</code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_real_time_tracking"><a class="anchor" href="#_real_time_tracking"></a>Real-time Tracking</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">// examples/real_time_tracking.py
-Unresolved directive in examples.adoc - include::examples/real_time_tracking.py[]</code></pre>
-</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Check Dependencies:</strong> Ensure that all required dependencies are installed in your environment as specified in the [Installation](main.html#installation) section.</p>
+</li>
+<li>
+<p><strong>Version Compatibility:</strong> Verify that you are using a compatible version of TrainManager with your Python interpreter.</p>
+</li>
+<li>
+<p><strong>Network Issues:</strong> If installation involves downloading packages, check your internet connection and ensure that network restrictions are not preventing the download.</p>
+</li>
+</ol>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_event_handling"><a class="anchor" href="#_event_handling"></a>Event Handling</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">// examples/event_handling.py
-Unresolved directive in examples.adoc - include::examples/event_handling.py[]</code></pre>
+<h3 id="_problem_unexpected_behavior_in_train_scheduling"><a class="anchor" href="#_problem_unexpected_behavior_in_train_scheduling"></a>Problem: Unexpected Behavior in Train Scheduling</h3>
+<div class="paragraph">
+<p>If you are experiencing unexpected behavior in train scheduling, consider the following:</p>
 </div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Check Route Configuration:</strong> Ensure that the routes for your trains are configured correctly, including the sequence of stations and travel times.</p>
+</li>
+<li>
+<p><strong>Review Scheduling Parameters:</strong> Double-check the scheduling parameters, such as departure and arrival times, for any inconsistencies or errors.</p>
+</li>
+<li>
+<p><strong>Inspect Event Handling:</strong> If you have implemented custom event handlers, review them for any issues related to train scheduling events.</p>
+</li>
+</ol>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_integration_with_existing_systems"><a class="anchor" href="#_integration_with_existing_systems"></a>Integration with Existing Systems</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">// examples/integration.py
-Unresolved directive in examples.adoc - include::examples/integration.py[]</code></pre>
+<h3 id="_problem_real_time_tracking_not_updating"><a class="anchor" href="#_problem_real_time_tracking_not_updating"></a>Problem: Real-time Tracking Not Updating</h3>
+<div class="paragraph">
+<p>If real-time tracking information is not updating as expected, follow these steps:</p>
 </div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Verify Train Status:</strong> Check the status of the trains in your system to ensure they are actively moving.</p>
+</li>
+<li>
+<p><strong>Update Frequency:</strong> Review the frequency of your real-time tracking updates to ensure they occur at the desired intervals.</p>
+</li>
+<li>
+<p><strong>Check Event Handling:</strong> Inspect any custom event handlers related to real-time tracking events for potential issues.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="back-to-main"><a class="anchor" href="#back-to-main"></a>Back to Main Page</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Return to the [main documentation page](main.html) for an overview of the TrainManager library.</p>
 </div>
 <div class="paragraph">
-<p>Feel free to modify and adapt these examples to suit your specific requirements. For more details on each example and additional scenarios, refer to the [full examples documentation](examples/full-examples.adoc).</p>
-</div>
+<p>Feel free to reach out to our [Community](community.html) for additional assistance or to report any issues not covered in this troubleshooting guide.</p>
 </div>
 </div>
 </div>
