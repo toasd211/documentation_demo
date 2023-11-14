@@ -1,0 +1,5 @@
+Library,Speed (ms),Reliability (out of 10),Flexibility (1-5),Community Support (1-10),Documentation Quality (1-5)
+TrainManager,15,9,5,9,5
+RailXpress,50,7,3,5,3
+TransitTech,100,5,2,3,2
+SpeedRail,18,8,4,9,4

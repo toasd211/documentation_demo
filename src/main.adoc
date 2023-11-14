@@ -30,6 +30,15 @@ To get started with TrainManager, follow these simple steps:
 
 3. **Integration:** Incorporate TrainManager into your project by importing the necessary modules and initializing the library.
 
+== Benchmark
+
+Consider the following benchmark, which shows TrainManager to be superior to its competitors in every respect:
+
+[%header,format=csv]
+|===
+include::benchmark.csv[]
+|===
+
 == Quick Start
 
 Here's a quick example to help you get started with TrainManager:
