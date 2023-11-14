@@ -1,20 +1,20 @@
 name: generate-docs
 run-name: generate-docs
 on:
-    push:
-        branches:
-            - master
+  push:
+    branches:
+      - master
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-        contents: write
-        
+      contents: write
+      
     steps:
-        - uses: actions/checkout@v4
-        - run: ./dtcw install doctoolchain
-        - run: ./dtcw generateHTML
-        - uses: stefanzweifel/git-auto-commit-action@v5
-          with:
-          	push_options: '--force'
-          	commit_message: Updated online documentation
+      - uses: actions/checkout@v4
+      - run: ./dtcw install doctoolchain
+      - run: ./dtcw generateHTML
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          push_options: '--force'
+          commit_message: Updated online documentation
